@@ -1,0 +1,18 @@
+Algoritmo Mostrar_el_número_más_grande_entre_dos_o_indicar_si_son_iguales
+	//pseucodigo Mostrar el número más grande entre dos o indicar si son iguales
+	Escribir "Ingrese el primer número:"
+    Leer A
+	
+    Escribir "Ingrese el segundo número:"
+    Leer B
+	
+    Si A > B Entonces
+        Escribir "El mayor es: ", A
+    Sino
+        Si B > A Entonces
+            Escribir "El mayor es: ", B
+        Sino
+            Escribir "Son iguales"
+        FinSi
+    FinSi
+FinAlgoritmo

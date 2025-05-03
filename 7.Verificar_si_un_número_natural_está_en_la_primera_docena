@@ -1,0 +1,11 @@
+Algoritmo Verificar_si_un_número_natural_está_en_la_primera_docena
+	//pseudocodigo Verificar si un número natural está en la primera docena
+	Escribir "ingrese un numero natural: "
+	Leer N
+    Si (N >= 1) Y (N <= 12) Entonces
+        Escribir "El número está dentro de la primera docena de naturales"
+    Sino
+        Escribir "El número NO está dentro de la primera docena"
+    FinSi
+	
+FinAlgoritmo

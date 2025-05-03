@@ -1,0 +1,17 @@
+Algoritmo mostrar_el_menor_de_tres_numeros
+	//pseudocodigo mostrar el menor de tres numero
+	Escribir "ingrese el primer numero: "
+	Leer A
+	Escribir "ingrese el segundo numero: "
+	Leer B
+	Escribir "ingrese el tercer numero: "
+	Leer C
+	menor <- A
+	Si B < menor Entonces
+		menor <- B
+	FinSi
+	Si C < menor Entonces
+		menor <- C
+	FinSi
+	Escribir " el menor es: ", menor 
+FinAlgoritmo

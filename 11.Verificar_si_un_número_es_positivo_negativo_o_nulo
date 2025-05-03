@@ -1,0 +1,14 @@
+Algoritmo Verificar_si_un_número_es_positivo_negativo_o_nulo
+	//pseudocodigo Verificar si un número es positivo, negativo o nulo
+	Escribir "Ingrese un número:"
+    Leer numero
+    Si numero > 0 Entonces
+        Escribir "El número es POSITIVO"
+    Sino
+        Si numero < 0 Entonces
+            Escribir "El número es NEGATIVO"
+        Sino
+            Escribir "El número es NULO"
+        FinSi
+    FinSi
+FinAlgoritmo

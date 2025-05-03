@@ -1,0 +1,11 @@
+Algoritmo Verificar_si_un_número_es_par_o_impar
+	//pseudocodigo Verificar si un número es par o impar
+	Definir numero Como Entero
+    Escribir "Ingrese un número natural:"
+    Leer numero
+    Si numero MOD 2 = 0 Entonces
+        Escribir "El número es PAR"
+    Sino
+        Escribir "El número es IMPAR"
+    FinSi
+FinAlgoritmo

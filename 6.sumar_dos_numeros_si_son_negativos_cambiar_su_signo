@@ -1,0 +1,15 @@
+Algoritmo sumar_dos_numeros_si_son_negativos_cambiar_su_signo
+	//pseudocodigo sumar dos numeros si son negativos cambiar su signo
+	Escribir "ingrese el primer numero"
+	Leer num1
+	Escribir "ingrese el segundo numero"
+	Leer num2
+	Si num1 < 0 Entonces
+		num1<- -num1
+	FinSi
+	Si num2 < 0 Entonces
+		num2<- -num2
+	FinSi
+	Suma <- num1 + num2
+	Escribir "la Suma es: ", suma 
+FinAlgoritmo

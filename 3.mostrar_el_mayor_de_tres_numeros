@@ -1,0 +1,17 @@
+Algoritmo mostrar_el_mayor_de_tres_numeros
+	//pseudocodigo Mostrar el mayor de tres numeros
+	Escribir "ingrese el primer numero: "
+	Leer A
+	Escribir "ingrese el segundo numero: "
+	Leer B
+	Escribir "ingrese el tercer numero: "
+	Leer C
+	mayor <- A
+	Si B > mayor Entonces
+		mayor <- B
+	FinSi
+	Si C > mayor Entonces
+		mayor <- C
+	FinSi
+		Escribir " el mayor es: ", mayor 
+FinAlgoritmo
