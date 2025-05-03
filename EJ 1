@@ -1,0 +1,8 @@
+Algoritmo ejercicio_1_mostrar_el_perimetro_de_una_circunferencia_si_el_radio_sea_mayor_cero
+	//pseudocodigo Mostrar el perímetro de una circunferencia si el radio > 0
+	leer radio
+	Si radio > 0 Entonces
+		perimetro <- 2 * PI * radio 
+		Mostrar perimetro
+	FinSi
+FinAlgoritmo
